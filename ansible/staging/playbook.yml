@@ -98,9 +98,4 @@
      async: 30
      poll: 0
      args:
-       chdir: bootcamp-app/
-
-   - name: register reboot service
-     shell: systemctl daemon-reload && systemctl enable reboot.service && systemctl start reboot.service
-     args:
-       chdir: /etc/systemd/system/
+       chdir: bootcamp-app/   
