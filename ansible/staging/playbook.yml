@@ -61,13 +61,10 @@
 
         [Install]
         WantedBy=multi-user.target
-
-   - name: Copy file with owner and permissions
-     ansible.builtin.copy:
-       src: /home/controller/bootcamp/scripts/rebootScript.sh
-       dest: /etc/systemd/system/rebootScript.sh
-       owner: root
-       mode: '0755'
+        
+        
+        
+        
 
    - name: create .env file
      copy:
