@@ -1,5 +1,9 @@
 # Node.js Weight Tracker
 
+###NOTE:
+
+This is the source code that will be used in Azure Devops regarding Week 7.
+
 [![Build Status](https://dev.azure.com/bootcamp-week-7/Weighttracker/_apis/build/status/Weighttracker-CI?branchName=master)](https://dev.azure.com/bootcamp-week-7/Weighttracker/_build/latest?definitionId=4&branchName=master)
 
 This sample application demonstrates the following technologies.
