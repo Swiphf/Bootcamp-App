@@ -2,8 +2,6 @@
 
 [![Build Status](https://dev.azure.com/bootcamp-week-7/Weighttracker/_apis/build/status/Weighttracker-CI?branchName=master)](https://dev.azure.com/bootcamp-week-7/Weighttracker/_build/latest?definitionId=4&branchName=master)
 
-![Demo](docs/build-weight-tracker-app-demo.gif)
-
 This sample application demonstrates the following technologies.
 
 * [hapi](https://hapi.dev) - a wonderful Node.js application framework
