@@ -1,6 +1,6 @@
 # Node.js Weight Tracker
 
-###NOTE:
+### NOTE:
 
 This is the source code that will be used in Azure Devops regarding Week 7.
 
