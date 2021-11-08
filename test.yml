@@ -1,0 +1,24 @@
+name: <<YOUR PIPELINE NAME CONFIG>>
+
+trigger:
+- master
+- feature/*
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  YOURVARKEYS: YOURVARVALUES
+  ...
+
+stages:
+
+# Continuous Integration Process
+- stage: CI
+  jobs:
+  - job: BuildAndPushDocker
+    workspace: 
+      clean: all
+    steps:
+    -  debug:
+         msg: "TESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTING"
