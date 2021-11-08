@@ -8,8 +8,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  YOURVARKEYS: YOURVARVALUES
-  ...
+  YOURVARKEYS: YOURVARVALUES  
 
 stages:
 
